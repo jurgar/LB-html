@@ -1,9 +1,92 @@
+
+.white-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin: 10px;
+    padding: 25px;
+
+}
+
+.green-header div{
+display: flex;
+background-color: rgb(34, 108, 55);
+color: white;
+justify-content: space-between;
+padding: 20px;
+
+}
+
+.green-header div a{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    align-content: center;
+    margin-right: 25px;
+    margin-left: 25px;  
+}
+
 header a{
-    background-color: grey;
     text-decoration: none;
     color: black;
-    text-align: center
+    text-align: center;
+    
+}
+
+.container {
+    background-color: white;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    
 }
 
 
+.container1 {
+    background-color: #e3e3e3;
+    height: 150%;
+    display: flex;
+    justify-content:left;
+    text-decoration: none;
+    color: black;
+}
+   main a{
+       text-decoration: none;
+       
+   } 
+   h3{
+    margin: 20px;
+   }
+   h2{
+    background-color: green;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    width: auto;
+    font-weight: 800;
+    color: black;
+    
+}
+.left-side{
+    display: flex;
+}
+.container2{
+    display: row;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    height: 100px;
+    text-align:center;
 
+}
+span{
+    margin: 50px 150px;
+    
+   
+   
+
+}
